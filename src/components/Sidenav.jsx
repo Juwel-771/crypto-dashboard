@@ -3,6 +3,13 @@ import React from "react";
 import { BiSolidDashboard } from "react-icons/bi";
 import { GrTransaction } from "react-icons/gr";
 import { BiSupport } from "react-icons/bi";
+import { FaPeopleRoof } from "react-icons/fa6";
+import { GiBassetHoundHead } from "react-icons/gi";
+import { MdCurrencyBitcoin } from "react-icons/md";
+import { RiStackFill } from "react-icons/ri";
+import { FaChartPie } from "react-icons/fa";
+import { RiRefund2Fill } from "react-icons/ri";
+
 
 const Sidenav = () => {
   const navlink = [
@@ -14,6 +21,36 @@ const Sidenav = () => {
     {
       icon: GrTransaction,
       text: "Transaction",
+      link: "/transaction",
+    },
+    {
+      icon: FaPeopleRoof,
+      text: "Stalking",
+      link: "/transaction",
+    },
+    {
+      icon: GiBassetHoundHead,
+      text: "Asset",
+      link: "/transaction",
+    },
+    {
+      icon: MdCurrencyBitcoin,
+      text: "Trades",
+      link: "/transaction",
+    },
+    {
+      icon: RiStackFill,
+      text: "Watchlist",
+      link: "/transaction",
+    },
+    {
+      icon: FaChartPie,
+      text: "Market",
+      link: "/transaction",
+    },
+    {
+      icon: RiRefund2Fill,
+      text: "Fund",
       link: "/transaction",
     },
   ];
