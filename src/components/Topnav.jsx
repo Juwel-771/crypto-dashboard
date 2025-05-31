@@ -4,7 +4,7 @@ import { Menu } from "@chakra-ui/react";
 
 const Topnav = () => {
   return (
-    <Box boxShadow="xl">
+    <Box boxShadow="sm">
         <HStack maxW="60rem" h="16" justify="space-between" px="32" mx="auto">
         <Heading>Dashboard</Heading>
         <Menu.Root>
