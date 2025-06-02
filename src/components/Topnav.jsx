@@ -4,11 +4,11 @@ import { Menu } from "@chakra-ui/react";
 import { FaUserTie } from "react-icons/fa6";
 
 
-const Topnav = () => {
+const Topnav = ({title}) => {
   return (
     <Box>
         <HStack maxW="60rem" h="16" justify="space-between" px="32" mx="auto">
-        <Heading>Dashboard</Heading>
+        <Heading>{title}</Heading>
         <Menu.Root>
           <Menu.Trigger asChild>
             <Button variant="solid" size="sm">
